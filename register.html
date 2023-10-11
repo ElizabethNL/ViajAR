@@ -16,12 +16,36 @@
                 <h2>Completa el formulario</h2>
                 <form action="#" method="POST">
                     <div class="campo">
+                        <label for="apellido">Apellido:</label>
+                        <input type="text" id="apellido" name="apellido" required>
+                    </div>
+                    <div class="campo">
                         <label for="nombre">Nombre:</label>
                         <input type="text" id="nombre" name="nombre" required>
                     </div>
                     <div class="campo">
+                        <label for="fecnac">Fecha de nacimiento:</label>
+                        <input type="date" id="fecnac" name="fecnac" required>
+                    </div>
+                    <div class="campo">
                         <label for="correo">Correo Electrónico:</label>
                         <input type="email" id="correo" name="correo" required>
+                    </div>
+                    <div class="campo">
+                        <label for="pais">País:</label>
+                        <select type="pais" id="pais" name="pais">
+                            <option value="">País</option>
+                            <option value="AR">Argentina</option>
+                            <option value="BO">Bolivia</option>
+                            <option value="BR">Brasil</option>
+                            <option value="CH">Chile</option>
+                            <option value="CO">Colombia</option>
+                            <option value="EC">Ecuador</option>
+                            <option value="PY">Paraguay</option>
+                            <option value="PE">Perú</option>
+                            <option value="UY">Uruguay</option>
+                            <option value="VE">Venezuela</option>
+                        </select>
                     </div>
                     <div class="campo">
                         <label for="contrasena">Contraseña:</label>
