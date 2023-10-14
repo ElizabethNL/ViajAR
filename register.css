@@ -47,7 +47,8 @@ footer {
 }
 
 .registro-imagen img {
-  max-width: 100%;
+  max-width: 50%;
+  align-items: center;
   border-radius: 5px;
   margin-top: 20px;
 }
@@ -107,7 +108,4 @@ button:hover {
     flex-direction: column-reverse;
   }
 
-  .registro-imagen img {
-    margin-top: 0;
-  }
 }

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://kit.fontawesome.com/a5d52be292.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./login.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    <section>
+        <div class="container">
+            <div class="form">
+                <form action="#">
+                    <h2>ViajAr</h2>
+                    <h2>Iniciar Sesión</h2>
+                    <div class="input-container">
+                        <i class="fa-solid fa-envelope"></i>
+                        <input type="email" id="email" name="email"required>
+                        <!-- <input type="text" placeholder="Correo" id="email" name="email" required> -->
+                        <label>Email</label>
+                    </div>
+                    <div class="input-container">
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="password" id="password" name="password" required>
+                        <!-- <input type="text" placeholder="Correo" id="email" name="email" required> -->
+                        <!-- <label for="#">Password</label> -->
+                        <label>Password</label>
+                    </div>
+
+                    <div class="olvidar">
+                        <!-- <label for="#"> -->
+                        <label>    
+                            <input type="checkbox">
+                            <a href="#">Olvidé la contraseña</a>
+                        </label>
+                    </div>
+                </form>
+                <div>
+                    <button onclick="guardarDatosL()">Acceder</button>
+                    <div class="registrar">
+                        <p>No tengo cuenta <a href="./register.html">Crear una</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="./static/js/register.js"></script>
+</body>
+</html>
