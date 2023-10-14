@@ -1,0 +1,36 @@
+h1{
+  color:#cf2828;
+  font-size: 2vw;
+}
+h2{
+  color:#0e0b0b;
+  font-size: 3vw;
+}
+.tour-item-detail-title{
+  color: rgb(226, 237, 238);
+  font-size: x-large;
+}
+.tour-item-detail-subtitle{
+ color: rgb(41, 218, 234);
+ font-size:large 
+ }
+
+.cuadricula {
+    display: grid;
+    height: 100%;
+    padding: 5px;
+    grid-gap: 5px;
+    grid-template-columns: repeat(2, 4fr);
+    grid-auto-flow: dense;
+    grid-template-rows: repeat (4, 3fr);
+     }
+  
+  .item {
+    background: rgb(211, 16, 16);
+    color: white;
+    padding: 1em;
+    width: 500px;
+    height: 600 px;
+    object-fit: cover;
+  }
+
