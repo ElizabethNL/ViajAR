@@ -33,3 +33,27 @@ function guardarDatosL() {
     // En este ejemplo, simplemente mostraremos los datos JSON en la consola.
     console.log(datosJSON);
   }
+
+  function guardarDatosC() {
+    // Recuperar los datos del formulario
+    var nombre = document.getElementById("name").value;
+    var apellido = document.getElementById("apellido").value;  
+    var email = document.getElementById("email").value; 
+    var affair = document.getElementById("affair").value;
+    // var messaje = document.getElementById("messaje").value;
+    // Crear un objeto JSON con los datos
+    var datos = {
+      nombre: nombre,
+      apellido: apellido,
+      email: email,
+      affair: affair
+      // messaje: messaje
+    };
+  
+    // Convertir el objeto JSON a una cadena JSON
+    var datosJSON = JSON.stringify(datos);
+  
+    // Guardar los datos en un archivo JSON (puedes ajustar esto según tus necesidades)
+    // En este ejemplo, simplemente mostraremos los datos JSON en la consola.
+    console.log(datosJSON);
+  }

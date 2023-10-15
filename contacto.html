@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Quicksand&display=swap" rel="stylesheet">
+    <!-- ANIMATE CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- FONT AWESOME -->
+    <script src="https://kit.fontawesome.com/a5d52be292.js" crossorigin="anonymous"></script>
+    <!-- ESTILO CSS -->
+    <link rel="stylesheet" href="./contacto.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+</head>
+<body>
+    <section>
+        <div class="container">
+            <div class="form">
+                <form action="#">
+                    <h2 class="logo">Viaj<span>Ar</span></h2>
+                    <h2>Contacto</h2>
+                    <div class="contact-wrapper">
+                        <div class="contact-form">
+                            <div class="input-container">
+                                <i class="fa-solid fa-user"></i>
+                                <input type="text" id="name" name="name"required>
+                                <label for="name">Nombre</label>
+                            </div>
+                            <div class="input-container">
+                                <i class="fa-solid fa-user"></i>
+                                <input type="text" id="apellido" name="apellido"required>
+                                <label for="apellido">Apellido</label>
+                            </div>
+                            <div class="input-container">
+                                <i class="fa-solid fa-envelope"></i>
+                                <input type="email" id="email" name="email"required>
+                                <label for="email">Email</label>
+                            </div>
+                            <div class="input-container">
+                                <i class="fa-solid fa-phone"></i>
+                                <input type="tel" id="phone" name="phone"required>
+                                <!-- <input type="tel" id="phone" name="phone"required pattern="[0-9]{2}-[0-9]{4}-[0-9]{4}"> -->
+                                <label>Telefono</label>
+                            </div>
+                            <div class="input-container">
+                                <i class="fa-solid fa-triangle-exclamation"></i>
+                                <input type="text" id="affair" name="affair"required>
+                                <label for="affair">Asunto</label>
+                            </div>
+                            <div class="input-container">
+                                <i class="fa-regular fa-note-sticky"></i>
+                                <textarea id="message" name="message" rows="3" required></textarea>
+                                <label for="message">Mensaje</label>
+                            </div>
+
+                        </div>
+                        <div class="contact-info">
+                            <h4>Más información</h4>
+                            <ul>
+                                <li><i class="fa-solid fa-location-dot"></i>Balcarce 78, C1064 CABA</li>
+                                <div class="iframe">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13135.383983241743!2d-58.3702778!3d-34.6080556!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a3352cbe276f75%3A0xe16921ef0545f86d!2sCasa%20Rosada!5e0!3m2!1ses!2sar!4v1697363530494!5m2!1ses!2sar" width="300" height="225" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+                                <li><i class="fa-solid fa-phone"></i>11-1111-1111</li>
+                                <li><i class="fa-solid fa-envelope-open-text"></i>viajAr@viajAr.com</li>
+                            </ul>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit atque assumenda eligendi nisi iste sint minima recusandae velit asperiores blanditiis nam, minus expedita itaque quidem eaque corporis dolorem a suscipit?</p>
+                            <h2>ViajAr.com</h2>
+                        </div>
+                    </div>
+                
+                </form>
+                <div>
+                    <button onclick="guardarDatosC()">Enviar</button>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="./login.js"></script>
+</body>
+</html>
