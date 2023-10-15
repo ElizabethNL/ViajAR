@@ -81,7 +81,7 @@ ul.menu {
 
 /*=============================Banner=============================*/
 .banner {
-    background-image: url("https://res.cloudinary.com/dxssqb6l8/image/upload/v1605294054/young-woman-enjoying-beautiful-scenery-of-lago-di-braies-italy-picjumbo-com_aa0fvw.jpg");
+    background-image: url("https://images8.alphacoders.com/851/851663.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -124,7 +124,7 @@ ul.menu {
 .banner-heading h1 {
     font-size: 100px;
     font-weight: normal;
-    color: #FDE02F;
+    color: #ffffff;
     font-family: Satisfy;
 }
 
@@ -403,7 +403,7 @@ ul.menu {
 
 /*===============Footer===================*/
 .footer {
-    background-image: url("https://res.cloudinary.com/dxssqb6l8/image/upload/v1605293781/pine-tree_mq2sgp.jpg");
+    background-image: url("https://www.kayak.com.mx/rimg/kimg/a7/99/537f965f-61814bae-21.jpeg?width=720&height=576&crop=true");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
