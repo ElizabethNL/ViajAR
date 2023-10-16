@@ -1,5 +1,5 @@
 h1{
-  color:#cf2828;
+  color:#393232;
   font-size: 2vw;
 }
 h2{
@@ -18,8 +18,8 @@ h2{
 .cuadricula {
     display: grid;
     height: 100%;
-    padding: 5px;
-    grid-gap: 5px;
+    padding: 1px;
+    grid-gap: 1px;
     grid-template-columns: repeat(2, 4fr);
     grid-auto-flow: dense;
     grid-template-rows: repeat (4, 3fr);
@@ -30,7 +30,19 @@ h2{
     color: white;
     padding: 1em;
     width: 500px;
-    height: 600 px;
+    height: 620 px;
     object-fit: cover;
   }
-
+  .btn-info {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  
+  .btn-info:hover {
+    background-color: #555;
+  }
+  
