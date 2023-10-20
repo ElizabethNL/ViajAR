@@ -59,7 +59,7 @@ ul.menu {
 
 /*=============================Fin NavBar=============================*/
  body{
-    background-image: url(fondoF5.jpg);
+    background-image: url(./static/img/login.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -71,7 +71,7 @@ ul.menu {
     align-items: center;
     width: 100%;
     min-height: 100vh;
-    background-image: url(fondoF5.jpg);
+    background-image: url(./static/img/login.jpg);
     /* background-size: contain; */
     background-size: cover;
     background-repeat: no-repeat;
