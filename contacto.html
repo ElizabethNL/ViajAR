@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- GOOGLE FONTS -->
     <link href="https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Quicksand&display=swap" rel="stylesheet">
     <!-- ANIMATE CSS -->
@@ -10,11 +11,33 @@
     <script src="https://kit.fontawesome.com/a5d52be292.js" crossorigin="anonymous"></script>
     <!-- ESTILO CSS -->
     <link rel="stylesheet" href="./contacto.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="viajAR icon" href="./Static/img/favicon.ico" type="image/x-icon">
     <title>Contacto</title>
+
 </head>
 <body>
-    <section>
+    <!--===========Nav Bar=================-->
+    <section id="nav-bar" class="nav-bar">
+        <div class="logo">ViajAR</div>
+            <ul>
+                <a href="https://www.facebook.com/"> <img src="./static/img/Logos/facebooka.png" alt="Facebook" width="75" height="50"></a>
+                <img src="./static/img/Logos/githuba.png" alt="GitHub" width="75" height="50">
+                <img src="./static/img/Logos/instagrama.png" alt="Instagram" width="75" height="50">
+                <img src="./static/img/Logos/linkedina.png" alt="Linkedin" width="75" height="50">
+            </ul>
+            <ul class="menu">
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="#">Tours</a></li>
+                <li><a href="#">Paquetes</a></li>
+                <li><a href="#">Nosotros</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+                <li><a href="./login.html">Acceder</a></li>
+            </ul>
+        </div>
+    </section> 
+    <!--=============Contacto==================-->
+    <section id="contacto" class="contacto">
         <div class="container">
             <div class="form">
                 <form action="#">
@@ -53,7 +76,6 @@
                                 <textarea id="message" name="message" rows="3" required></textarea>
                                 <label for="message">Mensaje</label>
                             </div>
-
                         </div>
                         <div class="contact-info">
                             <h4>Más información</h4>
@@ -72,11 +94,40 @@
                 </form>
                 <div>
                     <button onclick="guardarDatosC()">Enviar</button>
-
                 </div>
             </div>
         </div>
     </section>
+     <!--===========Footer=================-->
+     <div class="footer">
+        <div class="links">
+            <h3>Enlaces</h3>
+            <ul>
+                <li>Ofertas y Descuentos</li>
+                <li>Obten Beneficios Exclusivos</li>
+                <li>Contáctanos</li>
+                <li>Nosotros</li>
+            </ul>
+        </div>
+        <div class="links">
+            <h3>Novedades</h3>
+            <ul>
+                <li>Eventos Exclusivos</li>
+                <li>Recuerdos Exclusivos</li>
+                <li>Servicios Premium</li>
+                <li>Recorridos Personalizados</li>
+            </ul>
+        </div>
+        <div class="links">
+            <h3>Ayuda</h3>
+            <ul>
+                <li>Preguntas Frecuentes</li>
+                <li>Reportar un Problema</li>
+                <li>Terminos y Condiciones</li>
+                <li>Politicas de Privacidad</li>
+            </ul>
+        </div>
+
     <script src="./login.js"></script>
 </body>
 </html>
