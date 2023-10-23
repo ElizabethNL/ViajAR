@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
     <!-- GOOGLE FONTS -->
     <link href="https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Quicksand&display=swap" rel="stylesheet">
     <!-- ANIMATE CSS -->
@@ -10,21 +11,20 @@
     <!-- FONT AWESOME -->
     <script src="https://kit.fontawesome.com/a5d52be292.js" crossorigin="anonymous"></script>
     <!-- ESTILO CSS -->
-    <link rel="stylesheet" href="./contacto.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="viajAR icon" href="./Static/img/favicon.ico" type="image/x-icon">
-    <title>Contacto</title>
-
+    <!-- <link rel="stylesheet" href="./contacto.css"> -->
+    <link rel="stylesheet" href="./static/css/contacto.css">
+    <!-- <link rel="stylesheet" href="./viajar/style.css"> -->
+    <!-- FAVINCON -->
+    <link rel="viajAR icon" href="./static/Logos/contacto.ico" type="image/x-icon">
 </head>
 <body>
-    <!--===========Nav Bar=================-->
     <section id="nav-bar" class="nav-bar">
         <div class="logo">ViajAR</div>
-            <ul>
+            <ul class="logos">
                 <a href="https://www.facebook.com/"> <img src="./static/img/Logos/facebooka.png" alt="Facebook" width="75" height="50"></a>
-                <img src="./static/img/Logos/githuba.png" alt="GitHub" width="75" height="50">
-                <img src="./static/img/Logos/instagrama.png" alt="Instagram" width="75" height="50">
-                <img src="./static/img/Logos/linkedina.png" alt="Linkedin" width="75" height="50">
+                <a href="https://github.com/"> <img src="./static/img/Logos/githuba.png" alt="GitHub" width="75" height="50"></a>
+                <a href="https://www.instagram.com/"> <img src="./static/img/Logos/instagrama.png" alt="Instagram" width="75" height="50"></a>
+                <a href="https://www.linkedin.com/"> <img src="./static/img/Logos/linkedina.png" alt="Linkedin" width="75" height="50"></a>
             </ul>
             <ul class="menu">
                 <li><a href="./index.html">Inicio</a></li>
@@ -36,98 +36,80 @@
             </ul>
         </div>
     </section> 
-    <!--=============Contacto==================-->
-    <section id="contacto" class="contacto">
-        <div class="container">
-            <div class="form">
-                <form action="#">
-                    <h2 class="logo">Viaj<span>Ar</span></h2>
-                    <h2>Contacto</h2>
-                    <div class="contact-wrapper">
-                        <div class="contact-form">
-                            <div class="input-container">
-                                <i class="fa-solid fa-user"></i>
-                                <input type="text" id="name" name="name"required>
-                                <label for="name">Nombre</label>
-                            </div>
-                            <div class="input-container">
-                                <i class="fa-solid fa-user"></i>
-                                <input type="text" id="apellido" name="apellido"required>
-                                <label for="apellido">Apellido</label>
-                            </div>
-                            <div class="input-container">
-                                <i class="fa-solid fa-envelope"></i>
-                                <input type="email" id="email" name="email"required>
-                                <label for="email">Email</label>
-                            </div>
-                            <div class="input-container">
-                                <i class="fa-solid fa-phone"></i>
-                                <input type="tel" id="phone" name="phone"required>
-                                <!-- <input type="tel" id="phone" name="phone"required pattern="[0-9]{2}-[0-9]{4}-[0-9]{4}"> -->
-                                <label>Telefono</label>
-                            </div>
-                            <div class="input-container">
-                                <i class="fa-solid fa-triangle-exclamation"></i>
-                                <input type="text" id="affair" name="affair"required>
-                                <label for="affair">Asunto</label>
-                            </div>
-                            <div class="input-container">
-                                <i class="fa-regular fa-note-sticky"></i>
-                                <textarea id="message" name="message" rows="3" required></textarea>
-                                <label for="message">Mensaje</label>
-                            </div>
-                        </div>
-                        <div class="contact-info">
-                            <h4>Más información</h4>
-                            <ul>
-                                <li><i class="fa-solid fa-location-dot"></i>Balcarce 78, C1064 CABA</li>
-                                <div class="iframe">
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13135.383983241743!2d-58.3702778!3d-34.6080556!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a3352cbe276f75%3A0xe16921ef0545f86d!2sCasa%20Rosada!5e0!3m2!1ses!2sar!4v1697363530494!5m2!1ses!2sar" width="300" height="225" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
-                                <li><i class="fa-solid fa-phone"></i>11-1111-1111</li>
-                                <li><i class="fa-solid fa-envelope-open-text"></i>viajAr@viajAr.com</li>
-                            </ul>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit atque assumenda eligendi nisi iste sint minima recusandae velit asperiores blanditiis nam, minus expedita itaque quidem eaque corporis dolorem a suscipit?</p>
-                            <h2>ViajAr.com</h2>
-                        </div>
-                    </div>
-                
-                </form>
-                <div>
-                    <button onclick="guardarDatosC()">Enviar</button>
-                </div>
-            </div>
-        </div>
-    </section>
-     <!--===========Footer=================-->
-     <div class="footer">
-        <div class="links">
-            <h3>Enlaces</h3>
-            <ul>
-                <li>Ofertas y Descuentos</li>
-                <li>Obten Beneficios Exclusivos</li>
-                <li>Contáctanos</li>
-                <li>Nosotros</li>
-            </ul>
-        </div>
-        <div class="links">
-            <h3>Novedades</h3>
-            <ul>
-                <li>Eventos Exclusivos</li>
-                <li>Recuerdos Exclusivos</li>
-                <li>Servicios Premium</li>
-                <li>Recorridos Personalizados</li>
-            </ul>
-        </div>
-        <div class="links">
-            <h3>Ayuda</h3>
-            <ul>
-                <li>Preguntas Frecuentes</li>
-                <li>Reportar un Problema</li>
-                <li>Terminos y Condiciones</li>
-                <li>Politicas de Privacidad</li>
-            </ul>
-        </div>
+    <main>
+    <!--===========Nav Bar=================-->
 
-    <script src="./login.js"></script>
+    <!--=============Contacto==================-->
+        <!-- elemento define la sección en un documento. -->
+        <section class="form-wrapper">
+            <div class="parte1">
+            <h2>Contacto</h2>
+            <form  id="formRegister" method="POST" action="#">
+                <div class="form-control">
+                    <!-- <i class="fa-solid fa-user"></i> -->
+                    <label for="firstname">Nombre</label>
+                    <input type="text" name="firstname" id="firstname" >
+                </div>
+                <div class="error" id="error-firstname"></div>
+                <div class="form-control">
+                    <label for="lastname">Apellido</label>
+                    <input type="text" name="lastname" id="lastname">
+                </div>
+                <div class="error" id="error-lastname"></div>
+                <div class="form-control">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div class="form-control">
+                    <label id="label-birthdate" for="birthdate">Fecha de Nacimiento</label>
+                    <input type="date" name="birthdate" id="birthdate">
+                </div>
+
+                <div class="form-control">
+                    <select name="country" id="country" class="form-select">
+                        <option value="">País</option>
+                        <option value="AR">Argentina</option>
+                        <option value="BO">Bolivia</option>
+                        <option value="BR">Brasil</option>
+                        <option value="CH">Chile</option>
+                        <option value="CO">Colombia</option>
+                        <option value="EC">Ecuador</option>
+                        <option value="PY">Paraguay</option>
+                        <option value="PE">Perú</option>
+                        <option value="UY">Uruguay</option>
+                        <option value="VE">Venezuela</option>
+                    </select>
+                </div>
+                
+                <div class="form-control">
+                    <label for="affair">Asunto</label>
+                    <input type="text" name="affair" id="affair" >
+                </div>
+                <div class="error" id="error-affair"></div>
+                <div class="form-control">
+                    <!-- <i class="fa-regular fa-note-sticky"></i> -->
+                    <textarea id="message" name="message" rows="3"></textarea>
+                    <!-- <label for="message">Mensaje</label> -->
+                </div>
+                <div class="button">
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
+        </div>
+        <div class="parte2">
+            <h3>Más información</h3>
+            <ul class="sin-marcadores">
+                <li><i class="fa-solid fa-location-dot"></i>Balcarce 78, C1064 CABA</li>
+                <div class="iframe">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13135.383983241743!2d-58.3702778!3d-34.6080556!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a3352cbe276f75%3A0xe16921ef0545f86d!2sCasa%20Rosada!5e0!3m2!1ses!2sar!4v1697363530494!5m2!1ses!2sar" width="300" height="225" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+                <li><i class="fa-solid fa-phone"></i>11-1111-1111</li>
+                <li><i class="fa-solid fa-envelope-open-text"></i>viajAr@viajAr.com</li>
+            </ul>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit atque assumenda eligendi nisi iste sint minima recusandae velit asperiores blanditiis nam, minus expedita itaque quidem eaque corporis dolorem a suscipit?</p>
+            <h2>ViajAr.com</h2>
+        </div>
+        </section>
+    </main>
+    <script src="./static/js/validation-contacto.js"></script>
 </body>
 </html>
